@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(darkgreen,black,darkgreen);
+}
+h1{
+    font-family: monospace, bold;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 250;
+}
+.wkladki{
+    color: aliceblue;
+    font-family: monospace;
+    margin-left: 10px;
+   
+font-size: 30px;
+}
+.wkladki p {
+    margin-bottom: 10px;
+}
+.header{
+    display: flex;
+    background-color: #000000;
+}
+form {
+    width:400px;
+    margin:auto;
+    margin-top: 20px;
+    }
+    input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+    border-radius: 20px;
+    }
+    .search {
+    width: 75%;
+    background-color: rgb(242, 247, 242);
+    color: #ffffff;
+
+    }
+    ::placeholder{
+        color: #0e0909;
+    }
+    .submit{
+    width: 70px;
+    background-color: #14181a;
+    color:#ffffff;
+    box-shadow: #ecf4f8;
+    }
+.baby{
+    width: 100%;
+    height: 600px;
+}
+img{
+    width: 30%;
+    height: 70%;
+}
+.wkladki{
+    display: flex;
+    justify-content: center;
+}
+.towar {
+    transition: 1s; /* Время эффекта */
+    margin: 10px;
+   }
+   .towar:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }

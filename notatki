@@ -1,0 +1,86 @@
+temat : Wprowadzenie do JavaScript 
+ 
+techniki służące do dynamicznej zmiany treści, wyglądu lub zachowania się dokumentu HTML umożliwiają interakcje użytkownika ze stroną internetową.  
+ 
+W skład dynamicznego HTML wchodzą technologie:  
+- DOM, 
+- SVG, 
+- CSS, 
+- HTML, 
+- języki skryptowe, 
+ 
+A) Document Object Model 
+ 
+To spośob reprezentacji dokumentu XML i HTML w postaci modelu obiektowego. 
+Jest on niezależny od platformy i języka programowania. 
+ 
+Standard W3C definiuje interfejsy DOM tylko dla języków Java i JavaScript 
+ 
+😎 Scalable Vector Graphic 
+ 
+To uniwersalny format grafiki wektorowej. W SVG oprócz standardowych obiektów  
+można opisywać efekty specjalne, maski przeźroczystości oraz sposób animacji elementów. 
+ 
+C) Języki skryptowe 
+ 
+To języki interpretowane, zaprojektowane z myślą o interakcji z użytkownikiem.  
+Skrypty są wykonywane w określonych aplikacji i działają po stronie przeglądarki.  
+ 
+- Opis języka 
+JavaScript jest obiektowym językiem programowania nawiązującym do języka C. 
+ 
+ Typowe zastosowania JS to modyfikowanie wyglądu bierzącego dokumentu, 
+- Wyświetlanie okien dialogowych, 
+- Kontorla poprawności, 
+- Wypełnienie formularza, 
+- manipulowanie informacją dot. daty i czasu, 
+- lokalne generowanie dokumentów HTML 
+ 
+Kod źródłowy napisany w JS umieszczany jest pomiędzy znacznikami 
+ 
+ <script> ... </script> 
+<script type= "text/javascript"> 
+ 
+ 
+- confirm("coś"); Okienko decyzyjne- odpowiada za wyświetlenie treścsi  
+ komunikatu stanowiącego argument metody confirm udostępnia 2 przyciski 
+ 'ok' i 'anuluj', które po wcisnięciu zwracają wartość logiczną prawda lub fałsz.  
+ 
+- okienko dialogowe - informacyjne 
+ 
+- okienko tekstowe wyświetla tekst komunikatu stanowiącego argument metody prompt 
+ i pole umożliwiające wprowadzenie danych przez użytkownika. W trakcie wywoływania  
+ okna tekstowego w polu może pojawić się tekst domyślny. 
+ prompt("tekst", "ta"); 
+ 
+ćwiczenie napisz skrypt prezentujący okno tekstowe wyświetlające treść 
+ js to oraz pole do którego można wprowadzić odpowiedź. dzięki zagnieżdżeniu  
+metody prompt wewnątrz instrukcji dokument write informacje wpisane w polu okna  
+okna tekstowego po zatwierdzeniu przyciskiem okej zostaną wyświetlone w oknie przeglądarki. 
+ 
+ 
+ 
+typy danych 
+ 
+jezyk js udostepnia kilka typow danych należą do nich: 
+typ liczbowy - reprezentuje różnego rodzaju liczby. nie uwzglednia on podziału na l całkowite i zmienno-przecinkową.  
+Dozwolona jest notacja wykładnicza w postaci X.YeZ gdzie x stanowi część całkowitą, Y część dziesiętną, a Z jest wykładnikiem potęgi liczby 10 
+ 
+typ łańcuchowy to dozwolone ciągi znaków, które należy umieścić w "" lub apostrofach. Mogą dodatkowo zawierać znaki specjalne  
+ 
+\b backspace 
+\n  
+\r powrót karetki  
+\f nowa strna 
+\t tabulacja pionowa 
+\"  
+\'  
+ 
+typ logiczny 
+moze przyjmowac jedna z dwoch dostepnych wartosci true i false 
+ 
+typ obiektowy abcd 
+służy do reprezentacji obiektu 
+najczesciej wykorzystywane sa obiekty budowane oraz udostepniane przez przegladarke 
+ 
+typy specjalne
